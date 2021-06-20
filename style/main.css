@@ -1,0 +1,63 @@
+/* .square{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+.circle{
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+} */
+
+/* div{
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(226, 196, 196);
+    border-radius: 50%;
+    border-left-color: red ;
+    position: absolute;
+    animation: spin .1s linear infinite;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(7200deg);
+    }
+} */
+.images{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    
+
+}
+.images:last-child{
+    top: 10%;
+    left: 17.2%;
+    animation: spinMinus 3s linear infinite;
+}
+.images:first-child{
+    animation: spinPlus 3s linear infinite;
+}
+@keyframes spinPlus{
+    form{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes spinMinus{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
